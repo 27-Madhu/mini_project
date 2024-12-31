@@ -1,10 +1,14 @@
-import { StrictMode } from 'react'
-import { createRoot } from 'react-dom/client'
+import { StrictMode } from "react";
+import { createRoot } from "react-dom/client";
 
-import HomeExm  from './home.jsx'
+import Navbar from "./navbar.jsx";
+import HomeExm from "./home.jsx";
 
-createRoot(document.getElementById('root')).render(
+ 
+createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <HomeExm  />
-  </StrictMode>,
-)
+    <Navbar />
+    <HomeExm />
+    
+  </StrictMode>
+);
